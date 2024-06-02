@@ -1,0 +1,207 @@
+type Query {
+  """
+  Activos
+  """
+  allActivos: [Activo]
+  activosById(id: ID!): Activo
+  deleteActivo(id: ID!): String
+
+  """
+  Categorias
+  """
+  allCategorias: [Categoria]
+  categoriaById(id: ID!): Categoria
+  deleteCategoria(id: ID!): String
+
+  """
+  fabricantes
+  """
+  allFabricantes: [Fabricante]
+  fabricanteById(id: ID!): Fabricante
+  deleteFabricante(id: ID!): String
+
+  """
+  ubicaciones
+  """
+  allUbicaciones: [Ubicacion]
+  ubicacionById(id: ID!): Ubicacion
+  deleteUbicacion(id: ID!): String
+
+  """
+  depreciaciones
+  """
+  allDepreciaciones: [Depreciacion]
+  depreciacionById(id: ID!): Depreciacion
+  deleteDepreciacion(id: ID!): String
+
+  """
+  modelos
+  """
+  allModelos: [Modelo]
+  modeloById(id: ID!): Modelo
+  deleteModelo(id: ID!): String
+
+  """
+  personas
+  """
+  allPersonas: [Persona]
+  personaById(id: ID!): Persona
+  deletePersona(id: ID!): String
+}
+
+type Mutation {
+  """
+  Activos
+  """
+  addActivo(activo: ActivoInput): Activo
+  updateActivo(activo: ActivoInput): Activo
+
+  """
+  Categorias
+  """
+  addCategoria(categoria: CategoriaInput): Categoria
+  updateCategoria(categoria: CategoriaInput): Categoria
+
+  """
+  fabricantes
+  """
+  addFabricante(fabricante: FabricanteInput): Fabricante
+  updateFabricante(fabricante: FabricanteInput): Fabricante
+
+  """
+  ubicaciones
+  """
+  addUbicacion(ubicacion: UbicacionInput): Ubicacion
+  updateUbicacion(ubicacion: UbicacionInput): Ubicacion
+
+  """
+  depreciaciones
+  """
+  addDepreciacion(depreciacion: DepreciacionInput): Depreciacion
+  updateDepreciacion(depreciacion: DepreciacionInput): Depreciacion
+
+  """
+  modelos
+  """
+  addModelo(modelo: ModeloInput): Modelo
+  updateModelo(modelo: ModeloInput): Modelo
+
+  """
+  personas
+  """
+  addPersona(persona: PersonaInput): Persona
+  updatePersona(persona: PersonaInput): Persona
+
+}
+
+"""
+Types
+"""
+type Activo {
+  id: ID!
+  nombre: String!
+  serial: String
+  estado: String
+  ultimaAsignacion: String
+  ultimaDesasignacion: String
+  fechaCompra: String
+  valorCompra: String
+  valorActual: String
+  asignadoA: Persona
+  modelo: Modelo
+  depreciacion: Depreciacion
+  ubicacion: Ubicacion
+}
+
+type Categoria {
+  id: ID!
+  nombre: String!
+}
+
+type Fabricante {
+  id: ID!
+  nombre: String!
+}
+
+type Ubicacion {
+  id: ID!
+  nombre: String!
+}
+
+type Depreciacion {
+  id: ID!
+  nombre: String!
+  meses: String
+  valorMinimo: String
+}
+
+type Modelo {
+  id: ID!
+  nombre: String!
+  fabricante: Fabricante
+  categoria: Categoria
+}
+
+type Persona {
+  id: ID!
+  nombre: String!
+  email: String
+  telefono: String
+  ci: String
+}
+
+"""
+Inputs
+"""
+input ActivoInput {
+  id: ID
+  nombre: String!
+  serial: String
+  estado: String
+  ultimaAsignacion: String
+  ultimaDesasignacion: String
+  fechaCompra: String
+  valorCompra: String
+  valorActual: String
+  asignadoA: PersonaInput
+  modelo: ModeloInput
+  depreciacion: DepreciacionInput
+  ubicacion: UbicacionInput
+}
+
+input CategoriaInput {
+  id: ID
+  nombre: String!
+}
+
+input FabricanteInput {
+  id: ID
+  nombre: String!
+}
+
+input UbicacionInput {
+  id: ID
+  nombre: String!
+}
+
+input DepreciacionInput {
+  id: ID
+  nombre: String!
+  meses: String
+  valorMinimo: String
+}
+
+input ModeloInput {
+  id: ID
+  nombre: String!
+  fabricante: FabricanteInput
+  categoria: CategoriaInput
+}
+
+input PersonaInput {
+  id: ID
+  nombre: String!
+  email: String
+  telefono: String
+  ci: String
+}
