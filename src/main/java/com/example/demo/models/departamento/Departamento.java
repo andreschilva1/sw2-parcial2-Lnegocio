@@ -1,6 +1,10 @@
-package com.example.demo.models.fabricante;
+package com.example.demo.models.departamento;
+
 import org.springframework.data.annotation.Id;
+
 import org.springframework.data.mongodb.core.mapping.Document;
+
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,13 +12,15 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Document(collection = "fabricantes")
+@Document(collection = "departamentos")
 
-public class Fabricante {
+public class Departamento {
     // Atributos
     @Id
     private String id;
     private String nombre;
     private String descripcion;
+
+    
 
 }

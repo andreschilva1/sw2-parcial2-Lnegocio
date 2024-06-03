@@ -2,8 +2,8 @@ package com.example.demo.Controllers;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.models.Persona.Persona;
-import com.example.demo.models.Persona.PersonaServiceIMPL;
+import com.example.demo.models.persona.Persona;
+import com.example.demo.models.persona.PersonaServiceIMPL;
 
 import java.util.List;
 

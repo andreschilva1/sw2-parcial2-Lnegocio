@@ -5,9 +5,9 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.example.demo.models.Persona.Persona;
 import com.example.demo.models.depreciacion.Depreciacion;
 import com.example.demo.models.modelo.Modelo;
+import com.example.demo.models.persona.Persona;
 import com.example.demo.models.ubicacion.Ubicacion;
 
 import lombok.AllArgsConstructor;

@@ -1,9 +1,10 @@
-package com.example.demo.models.Persona;
+package com.example.demo.models.persona;
 
 import org.springframework.data.annotation.Id;
-
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import com.example.demo.models.departamento.Departamento;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -23,5 +24,7 @@ public class Persona {
     private String telefono;
     private String ci;
 
+    @DBRef
+    private Departamento departamento;
 
 }

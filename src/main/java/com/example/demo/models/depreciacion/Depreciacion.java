@@ -14,6 +14,7 @@ public class Depreciacion {
     // Atributos
     @Id
     private String id;
+    private String nombre;
     private String meses;
     private String valorMinimo;
     

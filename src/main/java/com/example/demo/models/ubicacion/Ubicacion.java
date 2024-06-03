@@ -15,5 +15,6 @@ public class Ubicacion {
     @Id
     private String id;
     private String nombre;
+    private String direccion;
 
 }

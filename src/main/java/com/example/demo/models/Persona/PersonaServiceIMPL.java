@@ -1,4 +1,4 @@
-package com.example.demo.models.Persona;
+package com.example.demo.models.persona;
 
 import java.util.List;
 

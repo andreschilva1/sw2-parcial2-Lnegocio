@@ -47,7 +47,16 @@ type Query {
   allPersonas: [Persona]
   personaById(id: ID!): Persona
   deletePersona(id: ID!): String
+
+  """
+  departamentos
+  """
+  allDepartamentos: [Departamento]
+  departamentoById(id: ID!): Departamento
+  deleteDepartamento(id: ID!): String
+
 }
+
 
 type Mutation {
   """
@@ -92,14 +101,20 @@ type Mutation {
   addPersona(persona: PersonaInput): Persona
   updatePersona(persona: PersonaInput): Persona
 
+  """
+  departamentos
+  """ 
+  addDepartamento(departamento: DepartamentoInput): Departamento
+  updateDepartamento(departamento: DepartamentoInput): Departamento
 }
 
 """
 Types
 """
+
 type Activo {
   id: ID!
-  nombre: String!
+  nombre: String
   serial: String
   estado: String
   ultimaAsignacion: String
@@ -115,47 +130,60 @@ type Activo {
 
 type Categoria {
   id: ID!
-  nombre: String!
+  nombre: String
+  descripcion: String
 }
 
 type Fabricante {
   id: ID!
-  nombre: String!
+  nombre: String
+  descripcion: String
 }
 
 type Ubicacion {
   id: ID!
-  nombre: String!
+  nombre: String
+  direccion: String
 }
 
 type Depreciacion {
   id: ID!
-  nombre: String!
+  nombre: String
   meses: String
   valorMinimo: String
 }
 
 type Modelo {
   id: ID!
-  nombre: String!
+  nombre: String
   fabricante: Fabricante
   categoria: Categoria
 }
 
 type Persona {
   id: ID!
-  nombre: String!
+  nombre: String
   email: String
   telefono: String
   ci: String
+  departamento: Departamento
 }
+
+type Departamento {
+  id: ID!
+  nombre: String
+  descripcion: String
+  
+}
+
+
 
 """
 Inputs
 """
 input ActivoInput {
   id: ID
-  nombre: String!
+  nombre: String
   serial: String
   estado: String
   ultimaAsignacion: String
@@ -171,37 +199,45 @@ input ActivoInput {
 
 input CategoriaInput {
   id: ID
-  nombre: String!
+  nombre: String
 }
 
 input FabricanteInput {
   id: ID
-  nombre: String!
+  nombre: String
 }
 
 input UbicacionInput {
   id: ID
-  nombre: String!
+  nombre: String
+  direccion: String
 }
 
 input DepreciacionInput {
   id: ID
-  nombre: String!
+  nombre: String
   meses: String
   valorMinimo: String
 }
 
 input ModeloInput {
   id: ID
-  nombre: String!
+  nombre: String
   fabricante: FabricanteInput
   categoria: CategoriaInput
 }
 
 input PersonaInput {
   id: ID
-  nombre: String!
+  nombre: String
   email: String
   telefono: String
   ci: String
+  departamento: DepartamentoInput
+}
+
+input DepartamentoInput {
+  id: ID
+  nombre: String
+  descripcion: String
 }
