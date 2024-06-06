@@ -23,6 +23,8 @@ public class Activo {
     // Atributos
     @Id
     private String id;
+    private String etiqueta;
+    private String image;
     private String nombre;
     private String serial;
     private String estado;
