@@ -114,6 +114,8 @@ Types
 
 type Activo {
   id: ID!
+  etiqueta: String
+  image: String
   nombre: String
   serial: String
   estado: String
@@ -183,6 +185,8 @@ Inputs
 """
 input ActivoInput {
   id: ID
+  etiqueta: String
+  image: String
   nombre: String
   serial: String
   estado: String
@@ -203,8 +207,9 @@ input CategoriaInput {
 }
 
 input FabricanteInput {
-  id: ID
+  id: ID!
   nombre: String
+  descripcion: String
 }
 
 input UbicacionInput {

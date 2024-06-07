@@ -23,12 +23,14 @@ public class Activo {
     // Atributos
     @Id
     private String id;
+    private String etiqueta;
+    private String image;
     private String nombre;
     private String serial;
     private String estado;
-    private Date ultimaAsignacion;
-    private Date ultimaDesasignacion;
-    private Date fechaCompra;
+    private String ultimaAsignacion;
+    private String ultimaDesasignacion;
+    private String fechaCompra;
     private String valorCompra;
     private String valorActual;
     
