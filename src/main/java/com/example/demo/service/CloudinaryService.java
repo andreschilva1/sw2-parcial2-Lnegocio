@@ -8,6 +8,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.util.Map;
+import java.util.HashMap;
 
 @Service
 public class CloudinaryService {
@@ -20,7 +21,9 @@ public class CloudinaryService {
     }
 
     public Map uploadFile(MultipartFile file) throws IOException {
-        return cloudinary.uploader().upload(file.getBytes(), ObjectUtils.emptyMap());
+        Map<String, Object> uploadOptions = new HashMap<>();
+        uploadOptions.put("folder", "activos");
+        return cloudinary.uploader().upload(file.getBytes(), uploadOptions);
     }
 
     public Map deleteFile(String publicId) throws IOException {

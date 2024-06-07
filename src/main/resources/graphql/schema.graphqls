@@ -207,8 +207,9 @@ input CategoriaInput {
 }
 
 input FabricanteInput {
-  id: ID
+  id: ID!
   nombre: String
+  descripcion: String
 }
 
 input UbicacionInput {
