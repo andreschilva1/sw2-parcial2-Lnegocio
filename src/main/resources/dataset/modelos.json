@@ -1,0 +1,342 @@
+[{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e5378"
+  },
+  "nombre": "Tab3",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f052f61525"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f04ade83da"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e5373"
+  },
+  "nombre": "Lenovo Intel Core i5",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537efdc6fa41e"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f04ade83da"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e536d"
+  },
+  "nombre": "Surface",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f04ade83d7"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f052f61528"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e536b"
+  },
+  "nombre": "Macbook Pro 13\"",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f04ade83d7"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f0a3679fe5"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e536e"
+  },
+  "nombre": "XPS 13",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f04ade83d7"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f002cf96e2"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e5375"
+  },
+  "nombre": "SoundStation 2",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f05510cb40"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cfe10537f0428d4b71"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e537b"
+  },
+  "nombre": "Ultrafine 4k",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f0a3679fe2"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f04c3c65a4"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e536f"
+  },
+  "nombre": "Spectre",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f04ade83d7"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537efdc6fa421"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e5379"
+  },
+  "nombre": "iPhone 11",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f002cf96df"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f0a3679fe5"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e5372"
+  },
+  "nombre": "iMac Pro",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537efdc6fa41e"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f0a3679fe5"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e5370"
+  },
+  "nombre": "ZenBook UX310",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f04ade83d7"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f05510cb43"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e536c"
+  },
+  "nombre": "Macbook Air",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f04ade83d7"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f0a3679fe5"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e5371"
+  },
+  "nombre": "Yoga 910",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f04ade83d7"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f04ade83da"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e5374"
+  },
+  "nombre": "OptiPlex",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537efdc6fa41e"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f002cf96e2"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e5376"
+  },
+  "nombre": "Polycom CX3000 IP Conference Phone",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f05510cb40"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cfe10537f0428d4b71"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e5377"
+  },
+  "nombre": "iPad Pro",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f052f61525"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f0a3679fe5"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e537c"
+  },
+  "nombre": "Ultrasharp U2415",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f0a3679fe2"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f002cf96e2"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+},
+{
+  "_id": {
+    "$oid": "665d2b3cbc8fc9ed670e537a"
+  },
+  "nombre": "iPhone 12",
+  "categoria": {
+    "$ref": "categorias",
+    "$id": {
+      "$oid": "665d04ede10537f002cf96df"
+    }
+  },
+  "fabricante": {
+    "$ref": "fabricantes",
+    "$id": {
+      "$oid": "665d21cae10537f0a3679fe5"
+    }
+  },
+  "_class": "com.example.demo.models.modelo.Modelo"
+}]

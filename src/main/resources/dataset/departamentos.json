@@ -1,0 +1,122 @@
+[
+  {
+    "_id": { "$oid": "665cdbbae10537f0a3679fde" },
+    "nombre": "Legal",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537f052f61521" },
+    "nombre": "Training",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537f002cf96db" },
+    "nombre": "Research and Development",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537f05510cb3c" },
+    "nombre": "Legal",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537efdc6fa41a" },
+    "nombre": "Engineering",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537f04ade83d3" },
+    "nombre": "Human Resources",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537f04c3c659d" },
+    "nombre": "Accounting",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537f0428d4b6e" },
+    "nombre": "Human Resources",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537efde48d4ed" },
+    "nombre": "Business Development",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537efa9458381" },
+    "nombre": "Training",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537f0d8bed993" },
+    "nombre": "Accounting",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537ef973f3c35" },
+    "nombre": "Training",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537ef2d0d21cb" },
+    "nombre": "Sales",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537ef19a633a1" },
+    "nombre": "Sales",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537f0ba1ab868" },
+    "nombre": "Training",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537efc46085a7" },
+    "nombre": "Services",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537ef95666346" },
+    "nombre": "Sales",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537f0ed6df231" },
+    "nombre": "Research and Development",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537f0e550ab87" },
+    "nombre": "Engineering",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  },
+  {
+    "_id": { "$oid": "665cdbbae10537ef52ca6578" },
+    "nombre": "Business Development",
+    "descripcion": null,
+    "_class": "com.example.demo.models.departamento.Departamento"
+  }
+]

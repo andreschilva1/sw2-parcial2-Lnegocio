@@ -1,0 +1,8 @@
+[{"_id":{"$oid":"665d21cae10537f0a3679fe5"},"nombre":"Apple","descripcion":null,"_class":"com.example.demo.models.fabricante.Fabricante"},
+{"_id":{"$oid":"665d21cae10537f052f61528"},"nombre":"Microsoft","descripcion":null,"_class":"com.example.demo.models.fabricante.Fabricante"},
+{"_id":{"$oid":"665d21cae10537f002cf96e2"},"nombre":"Dell","descripcion":null,"_class":"com.example.demo.models.fabricante.Fabricante"},
+{"_id":{"$oid":"665d21cae10537f05510cb43"},"nombre":"Asus","descripcion":null,"_class":"com.example.demo.models.fabricante.Fabricante"},
+{"_id":{"$oid":"665d21cae10537efdc6fa421"},"nombre":"HP","descripcion":null,"_class":"com.example.demo.models.fabricante.Fabricante"},
+{"_id":{"$oid":"665d21cae10537f04ade83da"},"nombre":"Lenovo","descripcion":null,"_class":"com.example.demo.models.fabricante.Fabricante"},
+{"_id":{"$oid":"665d21cae10537f04c3c65a4"},"nombre":"LG","descripcion":null,"_class":"com.example.demo.models.fabricante.Fabricante"},
+{"_id":{"$oid":"665d21cfe10537f0428d4b71"},"nombre":"Polycom","descripcion":null,"_class":"com.example.demo.models.fabricante.Fabricante"}]

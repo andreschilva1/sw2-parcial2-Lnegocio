@@ -1,0 +1,3362 @@
+[
+  {
+    "_id": { "$oid": "6666415ee1053751a598d110" },
+    "etiqueta": "62-776-4677",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/gwdnomgnyoj3lcgnsopu.jpg",
+    "nombre": "iMac Pro",
+    "serial": "30250b1f-60c2-42fe-a723-1732e887c5a2",
+    "estado": "no asignable",
+    "ultimaAsignacion": "05/07/2023",
+    "ultimaDesasignacion": "26/05/2024",
+    "fechaCompra": "09/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1529,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750ee33e0ea" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5372" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef2d0d21cd" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666415ee1053751f89bbcca" },
+    "etiqueta": "73-595-1611",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/gwdnomgnyoj3lcgnsopu.jpg",
+    "nombre": "iMac Pro",
+    "serial": "1572cbac-38e3-477c-81e0-47e0aaed3580",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "09/02/2024",
+    "ultimaDesasignacion": "10/05/2024",
+    "fechaCompra": "18/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1854,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae10537511d0bcdd7" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5372" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f04c3c65a2" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666415ee1053750b441ecb1" },
+    "etiqueta": "05-786-3674",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/gwdnomgnyoj3lcgnsopu.jpg",
+    "nombre": "iMac Pro",
+    "serial": "4b9330f1-8bc4-4fe6-aad8-d06e99e9c9bf",
+    "estado": "asignable",
+    "ultimaAsignacion": "16/06/2023",
+    "ultimaDesasignacion": "07/05/2024",
+    "fechaCompra": "28/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1824,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e105375184ce2936" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5372" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efde48d4ef" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666415ee1053751e5d9f045" },
+    "etiqueta": "96-962-8149",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/gwdnomgnyoj3lcgnsopu.jpg",
+    "nombre": "iMac Pro",
+    "serial": "4bbf723a-0bd3-4054-b207-33294ffaf174",
+    "estado": "archivado",
+    "ultimaAsignacion": "27/09/2023",
+    "ultimaDesasignacion": "19/05/2024",
+    "fechaCompra": "16/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1921,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053751ae22ef2b" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5372" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f05510cb41" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666415ee10537502bc8434c" },
+    "etiqueta": "17-867-2386",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/gwdnomgnyoj3lcgnsopu.jpg",
+    "nombre": "iMac Pro",
+    "serial": "dad50cb1-121b-41ec-b4b4-c62471873823",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "07/02/2024",
+    "ultimaDesasignacion": "06/06/2024",
+    "fechaCompra": "24/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1635,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e10537513b5fc91b" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5372" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efa9458383" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666415ee10537511d0bce08" },
+    "etiqueta": "77-919-4363",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/gwdnomgnyoj3lcgnsopu.jpg",
+    "nombre": "iMac Pro",
+    "serial": "099f33a0-23cf-416c-9be8-2be9f42ca99b",
+    "estado": "no asignable",
+    "ultimaAsignacion": "26/10/2023",
+    "ultimaDesasignacion": "07/06/2024",
+    "fechaCompra": "01/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1669,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750c44714e6" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5372" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0d8bed995" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664192e1053751a598d111" },
+    "etiqueta": "39-262-5864",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/ea23tnfjhx9k09otdndl.jpg",
+    "nombre": "iPad Pro",
+    "serial": "993d488f-aeac-488c-b2eb-6e3ac60b34d0",
+    "estado": "asignable",
+    "ultimaAsignacion": "21/12/2023",
+    "ultimaDesasignacion": "24/5/2024",
+    "fechaCompra": "8/6/2023",
+    "valorCompra": 3500,
+    "valorActual": 1709,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751fd1cdd1a" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5377" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0ba1ab86a" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664192e1053751f89bbccb" },
+    "etiqueta": "40-461-6930",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/ea23tnfjhx9k09otdndl.jpg",
+    "nombre": "iPad Pro",
+    "serial": "3c1fc682-29fe-412f-95d2-81f02ea3f0d6",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "2/3/2024",
+    "ultimaDesasignacion": "16/5/2024",
+    "fechaCompra": "19/4/2023",
+    "valorCompra": 3500,
+    "valorActual": 1552,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe10537501b82943c" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5377" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef973f3c37" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664192e1053750b441ecb2" },
+    "etiqueta": "73-079-2125",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/ea23tnfjhx9k09otdndl.jpg",
+    "nombre": "iPad Pro",
+    "serial": "2fdc5a63-c3c0-4935-8d89-36e179cd3a2a",
+    "estado": "asignable",
+    "ultimaAsignacion": "23/1/2024",
+    "ultimaDesasignacion": "25/5/2024",
+    "fechaCompra": "15/4/2023",
+    "valorCompra": 3500,
+    "valorActual": 2000,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e10537514f7dc96d" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5377" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef2d0d21cd" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664192e1053751e5d9f046" },
+    "etiqueta": "46-874-2117",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/ea23tnfjhx9k09otdndl.jpg",
+    "nombre": "iPad Pro",
+    "serial": "7f7878a9-6e3b-421a-8743-fb2afad8b379",
+    "estado": "archivado",
+    "ultimaAsignacion": "24/8/2023",
+    "ultimaDesasignacion": "30/5/2024",
+    "fechaCompra": "14/5/2023",
+    "valorCompra": 3500,
+    "valorActual": 1547,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae10537503d3feca2" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5377" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef2d0d21cd" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664192e10537502bc8434d" },
+    "etiqueta": "87-282-6174",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/ea23tnfjhx9k09otdndl.jpg",
+    "nombre": "iPad Pro",
+    "serial": "c493002a-19e3-41ee-918a-5f7f92db24b5",
+    "estado": "no asignable",
+    "ultimaAsignacion": "4/9/2023",
+    "ultimaDesasignacion": "28/5/2024",
+    "fechaCompra": "10/4/2023",
+    "valorCompra": 3500,
+    "valorActual": 1926,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae10537508022fba5" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5377" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef2d0d21cd" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664192e10537511d0bce09" },
+    "etiqueta": "61-725-1332",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/ea23tnfjhx9k09otdndl.jpg",
+    "nombre": "iPad Pro",
+    "serial": "d498cc51-a045-465d-80c3-3535dbf08dd3",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "2/2/2024",
+    "ultimaDesasignacion": "27/5/2024",
+    "fechaCompra": "15/4/2023",
+    "valorCompra": 3500,
+    "valorActual": 1631,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053751a598d0e8" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5377" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f0a3679fe3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666641c5e1053751a598d112" },
+    "etiqueta": "42-597-2204",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/ozitcsq5ra5nbwwsmmrn.jpg",
+    "nombre": "iPhone 11",
+    "serial": "5e2cd201-2f9e-4300-a60c-4f1668610a78",
+    "estado": "archivado",
+    "ultimaAsignacion": "15/7/2023",
+    "ultimaDesasignacion": "29/5/2024",
+    "fechaCompra": "5/5/2023",
+    "valorCompra": 3500,
+    "valorActual": 1985,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e105375184ce2932" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5379" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef2d0d21cd" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666641c5e1053751f89bbccc" },
+    "etiqueta": "27-621-1902",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/ozitcsq5ra5nbwwsmmrn.jpg",
+    "nombre": "iPhone 11",
+    "serial": "65779ec6-3e70-4872-8755-33c9b54bc665",
+    "estado": "asignable",
+    "ultimaAsignacion": "16/11/2023",
+    "ultimaDesasignacion": "29/5/2024",
+    "fechaCompra": "3/6/2023",
+    "valorCompra": 3500,
+    "valorActual": 1568,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750c7b789fe" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5379" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f0a3679fe3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666641c5e1053750b441ecb3" },
+    "etiqueta": "33-448-5478",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/ozitcsq5ra5nbwwsmmrn.jpg",
+    "nombre": "iPhone 11",
+    "serial": "605fe272-3e16-477f-a4aa-c4e73e359811",
+    "estado": "archivado",
+    "ultimaAsignacion": "21/9/2023",
+    "ultimaDesasignacion": "19/5/2024",
+    "fechaCompra": "31/5/2023",
+    "valorCompra": 3500,
+    "valorActual": 1929,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae10537503d3fecac" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5379" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efde48d4ef" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666641c5e1053751e5d9f047" },
+    "etiqueta": "45-145-9090",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/ozitcsq5ra5nbwwsmmrn.jpg",
+    "nombre": "iPhone 11",
+    "serial": "934b1255-d30e-4d77-a626-d49bcf6f6fb1",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "26/1/2024",
+    "ultimaDesasignacion": "5/6/2024",
+    "fechaCompra": "16/4/2023",
+    "valorCompra": 3500,
+    "valorActual": 1623,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751fd1cdd1a" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5379" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efde48d4ef" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666641c5e10537502bc8434e" },
+    "etiqueta": "20-763-3250",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/ozitcsq5ra5nbwwsmmrn.jpg",
+    "nombre": "iPhone 11",
+    "serial": "44fe36c9-96e1-4941-bd8c-806cb34ce677",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "21/2/2024",
+    "ultimaDesasignacion": "28/5/2024",
+    "fechaCompra": "27/5/2023",
+    "valorCompra": 3500,
+    "valorActual": 1843,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe105375205368cc0" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5379" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef973f3c37" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666641c5e10537511d0bce0a" },
+    "etiqueta": "03-316-2852",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/ozitcsq5ra5nbwwsmmrn.jpg",
+    "nombre": "iPhone 11",
+    "serial": "f750dc39-6410-449c-82d7-82486681b3f5",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "23/1/2024",
+    "ultimaDesasignacion": "1/6/2024",
+    "fechaCompra": "1/5/2023",
+    "valorCompra": 3500,
+    "valorActual": 1836,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae10537511d0bcdd9" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5379" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef19a633a3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666641e2e1053751a598d113" },
+    "etiqueta": "55-394-7738",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/sfcokyaiomzcu6muxvaa.jpg",
+    "nombre": "iPhone 12",
+    "serial": "4b7945df-f5f9-4ba9-ba34-39a7c69c8ce7",
+    "estado": "no asignable",
+    "ultimaAsignacion": "30/9/2023",
+    "ultimaDesasignacion": "30/5/2024",
+    "fechaCompra": "12/5/2023",
+    "valorCompra": 3500,
+    "valorActual": 1936,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751e5d9f00e" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537a" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f04c3c65a2" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666641e2e1053751f89bbccd" },
+    "etiqueta": "42-367-2941",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/sfcokyaiomzcu6muxvaa.jpg",
+    "nombre": "iPhone 12",
+    "serial": "dc3a0795-57f9-4bf6-a36e-fd422b9fdf72",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "5/1/2024",
+    "ultimaDesasignacion": "9/5/2024",
+    "fechaCompra": "18/4/2023",
+    "valorCompra": 3500,
+    "valorActual": 1774,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe10537511d0bcde1" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537a" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f04ade83d8" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666641e2e1053750b441ecb4" },
+    "etiqueta": "95-920-8854",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/sfcokyaiomzcu6muxvaa.jpg",
+    "nombre": "iPhone 12",
+    "serial": "254bce69-727c-4d1d-8616-5b03d5f8a3a5",
+    "estado": "archivado",
+    "ultimaAsignacion": "31/7/2023",
+    "ultimaDesasignacion": "22/5/2024",
+    "fechaCompra": "11/5/2023",
+    "valorCompra": 3500,
+    "valorActual": 1644,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053751614272b5" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537a" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef2d0d21cd" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666641e2e1053751e5d9f048" },
+    "etiqueta": "41-749-9982",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/sfcokyaiomzcu6muxvaa.jpg",
+    "nombre": "iPhone 12",
+    "serial": "456cd938-8962-44c6-9065-2b5c15c108ca",
+    "estado": "asignable",
+    "ultimaAsignacion": "10/7/2023",
+    "ultimaDesasignacion": "6/6/2024",
+    "fechaCompra": "23/4/2023",
+    "valorCompra": 3500,
+    "valorActual": 1554,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053751614272be" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537a" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f04ade83d8" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666641e2e10537502bc8434f" },
+    "etiqueta": "50-382-9939",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/sfcokyaiomzcu6muxvaa.jpg",
+    "nombre": "iPhone 12",
+    "serial": "36cc5341-2a03-4af8-8c77-40b4ff6476dc",
+    "estado": "archivado",
+    "ultimaAsignacion": "27/3/2024",
+    "ultimaDesasignacion": "13/5/2024",
+    "fechaCompra": "23/4/2023",
+    "valorCompra": 3500,
+    "valorActual": 1520,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750c44714ea" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537a" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efde48d4ef" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666641e2e10537511d0bce0b" },
+    "etiqueta": "09-654-0389",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/sfcokyaiomzcu6muxvaa.jpg",
+    "nombre": "iPhone 12",
+    "serial": "9dd6e86c-6b8a-4932-9abb-1c7e8705fb13",
+    "estado": "archivado",
+    "ultimaAsignacion": "31/7/2023",
+    "ultimaDesasignacion": "27/5/2024",
+    "fechaCompra": "11/4/2023",
+    "valorCompra": 3500,
+    "valorActual": 1886,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053751a598d0f0" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537a" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef2d0d21cd" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664207e1053751a598d114" },
+    "etiqueta": "50-874-7411",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/xlztbxavklwkw8zhrlmo.png",
+    "nombre": "Lenovo Intel Core i5",
+    "serial": "c00093dc-7c36-4184-b02c-ff8e45ec7897",
+    "estado": "asignable",
+    "ultimaAsignacion": "18/09/2023",
+    "ultimaDesasignacion": "15/05/2024",
+    "fechaCompra": "15/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1897,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053751c0b7b8be" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5373" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f002cf96e0" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664207e1053751f89bbcce" },
+    "etiqueta": "50-671-2307",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/xlztbxavklwkw8zhrlmo.png",
+    "nombre": "Lenovo Intel Core i5",
+    "serial": "6224aa1f-ddbf-46e7-b1b8-3261c8684e42",
+    "estado": "no asignable",
+    "ultimaAsignacion": "06/07/2023",
+    "ultimaDesasignacion": "14/05/2024",
+    "fechaCompra": "21/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1796,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053750707c12ab" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5373" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efde48d4ef" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664207e1053750b441ecb5" },
+    "etiqueta": "35-772-2388",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/xlztbxavklwkw8zhrlmo.png",
+    "nombre": "Lenovo Intel Core i5",
+    "serial": "c828b88c-38fd-4ca4-a4d2-be7a8669e5cb",
+    "estado": "asignable",
+    "ultimaAsignacion": "28/08/2023",
+    "ultimaDesasignacion": "21/05/2024",
+    "fechaCompra": "16/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1542,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751a598d0e3" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5373" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f04ade83d8" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664207e1053751e5d9f049" },
+    "etiqueta": "23-147-3768",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/xlztbxavklwkw8zhrlmo.png",
+    "nombre": "Lenovo Intel Core i5",
+    "serial": "2cedde04-c5f8-4d03-8072-78f24da52430",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "18/08/2023",
+    "ultimaDesasignacion": "30/05/2024",
+    "fechaCompra": "05/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1859,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751ae22ef1e" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5373" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef19a633a3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664207e10537502bc84350" },
+    "etiqueta": "79-216-6064",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/xlztbxavklwkw8zhrlmo.png",
+    "nombre": "Lenovo Intel Core i5",
+    "serial": "b36729ac-5a84-4bd3-986b-0089799580ed",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "30/11/2023",
+    "ultimaDesasignacion": "30/05/2024",
+    "fechaCompra": "22/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1632,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751e5d9f014" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5373" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0ba1ab86a" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664207e10537511d0bce0c" },
+    "etiqueta": "14-445-8290",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/xlztbxavklwkw8zhrlmo.png",
+    "nombre": "Lenovo Intel Core i5",
+    "serial": "2d24f3a4-cb9d-464c-9aa0-1204e61145ca",
+    "estado": "archivado",
+    "ultimaAsignacion": "06/09/2023",
+    "ultimaDesasignacion": "06/05/2024",
+    "fechaCompra": "31/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1934,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae10537508022fb9c" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5373" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f0a3679fe3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666422fe1053751a598d116" },
+    "etiqueta": "37-814-2547",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/ofpcgfurkkrzryukltrs.jpg",
+    "nombre": "Macbook Air",
+    "serial": "4b4389cd-6ff7-42c9-8fe6-593a3c1d122d",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "25/07/2023",
+    "ultimaDesasignacion": "26/05/2024",
+    "fechaCompra": "15/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1511,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053751c0b7b8c8" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536c" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f04ade83d8" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664230e1053751f89bbcd0" },
+    "etiqueta": "09-832-2950",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/ofpcgfurkkrzryukltrs.jpg",
+    "nombre": "Macbook Air",
+    "serial": "3be2f209-88ee-414c-8888-7c742f2d4a9d",
+    "estado": "no asignable",
+    "ultimaAsignacion": "17/10/2023",
+    "ultimaDesasignacion": "24/05/2024",
+    "fechaCompra": "26/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1837,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053751626e717f" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536c" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efde48d4ef" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664231e1053750b441ecb7" },
+    "etiqueta": "42-885-4389",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/ofpcgfurkkrzryukltrs.jpg",
+    "nombre": "Macbook Air",
+    "serial": "3cd25105-67f1-485a-872a-09e35d02ba84",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "09/10/2023",
+    "ultimaDesasignacion": "17/05/2024",
+    "fechaCompra": "06/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1573,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750ee33e0dd" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536c" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f002cf96e0" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664233e1053751e5d9f04b" },
+    "etiqueta": "35-536-0591",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/ofpcgfurkkrzryukltrs.jpg",
+    "nombre": "Macbook Air",
+    "serial": "eccd3c11-20ef-4c8c-ac81-79f84d1a34a9",
+    "estado": "asignable",
+    "ultimaAsignacion": "01/11/2023",
+    "ultimaDesasignacion": "03/06/2024",
+    "fechaCompra": "11/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1552,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750a3841707" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536c" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f05510cb41" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664234e10537502bc84352" },
+    "etiqueta": "12-941-3545",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/ofpcgfurkkrzryukltrs.jpg",
+    "nombre": "Macbook Air",
+    "serial": "6fecc3e9-a913-44bc-bc8e-31269ab0df75",
+    "estado": "asignable",
+    "ultimaAsignacion": "04/11/2023",
+    "ultimaDesasignacion": "30/05/2024",
+    "fechaCompra": "01/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1654,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053751c0b7b8c8" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536c" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f04ade83d8" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664235e10537511d0bce0e" },
+    "etiqueta": "96-632-5445",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/ofpcgfurkkrzryukltrs.jpg",
+    "nombre": "Macbook Air",
+    "serial": "9a497cc2-db07-4c99-a825-fd1f7fe632d7",
+    "estado": "no asignable",
+    "ultimaAsignacion": "20/06/2023",
+    "ultimaDesasignacion": "18/05/2024",
+    "fechaCompra": "26/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1735,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe10537502bc84328" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536c" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f002cf96e0" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664244e1053751a598d117" },
+    "etiqueta": "27-526-2355",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/l2yqe0jil1yj6dypfqkq.jpg",
+    "nombre": "Macbook Pro 13",
+    "serial": "3a38f0ab-0713-4468-9565-bab8c63a0c15",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "20/06/2023",
+    "ultimaDesasignacion": "11/05/2024",
+    "fechaCompra": "17/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1987,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751177bcb14" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536b" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0ba1ab86a" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664244e1053751f89bbcd1" },
+    "etiqueta": "43-672-8556",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/l2yqe0jil1yj6dypfqkq.jpg",
+    "nombre": "Macbook Pro 13",
+    "serial": "995da17f-1b90-47bb-bb92-b74daa0f0ccc",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "22/09/2023",
+    "ultimaDesasignacion": "29/05/2024",
+    "fechaCompra": "01/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1799,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750eae3d03a" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536b" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef2d0d21cd" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664245e1053750b441ecb8" },
+    "etiqueta": "51-660-1395",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/l2yqe0jil1yj6dypfqkq.jpg",
+    "nombre": "Macbook Pro 13",
+    "serial": "a1e07e01-9b98-40ff-90d9-5c388d430caf",
+    "estado": "archivado",
+    "ultimaAsignacion": "25/09/2023",
+    "ultimaDesasignacion": "24/05/2024",
+    "fechaCompra": "12/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1810,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751f89bbc93" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536b" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f002cf96e0" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664244e1053751e5d9f04c" },
+    "etiqueta": "22-612-1602",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/l2yqe0jil1yj6dypfqkq.jpg",
+    "nombre": "Macbook Pro 13",
+    "serial": "a838ba05-f5cd-44de-8e7f-cbce5a684239",
+    "estado": "asignable",
+    "ultimaAsignacion": "11/12/2023",
+    "ultimaDesasignacion": "24/05/2024",
+    "fechaCompra": "20/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1591,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe10537501b829442" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536b" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f052f61526" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664244e10537502bc84353" },
+    "etiqueta": "86-892-6753",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/l2yqe0jil1yj6dypfqkq.jpg",
+    "nombre": "Macbook Pro 13",
+    "serial": "83f3c813-9349-4b67-9478-763119570263",
+    "estado": "archivado",
+    "ultimaAsignacion": "29/01/2024",
+    "ultimaDesasignacion": "15/05/2024",
+    "fechaCompra": "03/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1583,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053751a598d0e6" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536b" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0428d4b70" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664245e10537511d0bce0f" },
+    "etiqueta": "83-588-1609",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/l2yqe0jil1yj6dypfqkq.jpg",
+    "nombre": "Macbook Pro 13",
+    "serial": "e7fce3b5-d7ab-4508-8e25-5b614b548417",
+    "estado": "asignable",
+    "ultimaAsignacion": "05/08/2023",
+    "ultimaDesasignacion": "15/05/2024",
+    "fechaCompra": "17/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1869,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053751614272b5" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536b" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0428d4b70" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664265e1053751a598d118" },
+    "etiqueta": "96-107-1916",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/jloxhyu0nns62kezovf9.jpg",
+    "nombre": "OptiPlex",
+    "serial": "f982bd77-f22a-4523-ba74-ea4bdc5b17d0",
+    "estado": "no asignable",
+    "ultimaAsignacion": "24/08/2023",
+    "ultimaDesasignacion": "07/05/2024",
+    "fechaCompra": "16/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1576,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750ee33e0e5" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5374" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f05510cb41" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664265e1053751f89bbcd2" },
+    "etiqueta": "10-846-5803",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/jloxhyu0nns62kezovf9.jpg",
+    "nombre": "OptiPlex",
+    "serial": "6b874953-4613-4fc7-b4a5-9fda6304b2b4",
+    "estado": "asignable",
+    "ultimaAsignacion": "25/11/2023",
+    "ultimaDesasignacion": "15/05/2024",
+    "fechaCompra": "11/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1989,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751c0b7b8b6" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5374" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537efdc6fa41f" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664265e1053750b441ecb9" },
+    "etiqueta": "17-377-9913",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/jloxhyu0nns62kezovf9.jpg",
+    "nombre": "OptiPlex",
+    "serial": "9aaf4141-787c-4f25-8c07-f8e7bed99262",
+    "estado": "archivado",
+    "ultimaAsignacion": "06/07/2023",
+    "ultimaDesasignacion": "28/05/2024",
+    "fechaCompra": "05/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1960,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e105375184ce2931" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5374" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537efdc6fa41f" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664265e1053751e5d9f04d" },
+    "etiqueta": "49-775-9782",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/jloxhyu0nns62kezovf9.jpg",
+    "nombre": "OptiPlex",
+    "serial": "7832d8af-00a2-4077-9cc4-7ab3d2985bd2",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "03/03/2024",
+    "ultimaDesasignacion": "23/05/2024",
+    "fechaCompra": "09/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1922,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053750e747c240" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5374" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f0a3679fe3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664265e10537502bc84354" },
+    "etiqueta": "52-768-6939",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/jloxhyu0nns62kezovf9.jpg",
+    "nombre": "OptiPlex",
+    "serial": "9f0616da-4314-4950-a83f-1dd32e15eef4",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "02/08/2023",
+    "ultimaDesasignacion": "05/06/2024",
+    "fechaCompra": "09/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1619,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e10537513b5fc92d" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5374" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0d8bed995" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664265e10537511d0bce10" },
+    "etiqueta": "46-874-3166",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/jloxhyu0nns62kezovf9.jpg",
+    "nombre": "OptiPlex",
+    "serial": "bb5c23e1-64bc-4fcc-9fc4-6b31b2adf67a",
+    "estado": "no asignable",
+    "ultimaAsignacion": "20/03/2024",
+    "ultimaDesasignacion": "12/05/2024",
+    "fechaCompra": "24/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1581,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe10537511d0bcde0" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5374" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f002cf96e0" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666427be1053751a598d119" },
+    "etiqueta": "91-561-3833",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/nmezh5ax9d14tryo3py1.png",
+    "nombre": "Polycom CX3000 IP Conference Phone",
+    "serial": "4b5e27e6-e598-4a7c-8582-452683a28587",
+    "estado": "archivado",
+    "ultimaAsignacion": "19/09/2023",
+    "ultimaDesasignacion": "30/05/2024",
+    "fechaCompra": "05/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1988,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750c7b789fa" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5376" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efde48d4ef" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666427be1053751f89bbcd3" },
+    "etiqueta": "84-331-8343",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/nmezh5ax9d14tryo3py1.png",
+    "nombre": "Polycom CX3000 IP Conference Phone",
+    "serial": "376afbf7-759c-40c1-bea9-11d6d50c2dd3",
+    "estado": "no asignable",
+    "ultimaAsignacion": "09/06/2023",
+    "ultimaDesasignacion": "04/06/2024",
+    "fechaCompra": "13/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1641,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e10537513b5fc922" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5376" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f002cf96e0" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666427be1053750b441ecba" },
+    "etiqueta": "79-984-9433",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/nmezh5ax9d14tryo3py1.png",
+    "nombre": "Polycom CX3000 IP Conference Phone",
+    "serial": "7a5a96c6-f04b-4f2c-afae-df13084227c2",
+    "estado": "no asignable",
+    "ultimaAsignacion": "12/11/2023",
+    "ultimaDesasignacion": "25/05/2024",
+    "fechaCompra": "30/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1645,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e105375184ce2939" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5376" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f052f61526" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666427be1053751e5d9f04e" },
+    "etiqueta": "57-610-6524",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/nmezh5ax9d14tryo3py1.png",
+    "nombre": "Polycom CX3000 IP Conference Phone",
+    "serial": "9cfa6077-2633-4048-bdad-b9f55e992488",
+    "estado": "asignable",
+    "ultimaAsignacion": "22/09/2023",
+    "ultimaDesasignacion": "02/06/2024",
+    "fechaCompra": "20/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1531,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae10537503d3fecaf" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5376" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f05510cb41" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666427be10537502bc84355" },
+    "etiqueta": "46-459-3896",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/nmezh5ax9d14tryo3py1.png",
+    "nombre": "Polycom CX3000 IP Conference Phone",
+    "serial": "edcaa4f1-4e42-4e6b-87d6-313a0472147a",
+    "estado": "archivado",
+    "ultimaAsignacion": "21/09/2023",
+    "ultimaDesasignacion": "06/05/2024",
+    "fechaCompra": "07/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1779,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750a38416fd" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5376" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efa9458383" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666427be10537511d0bce11" },
+    "etiqueta": "59-145-2427",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/nmezh5ax9d14tryo3py1.png",
+    "nombre": "Polycom CX3000 IP Conference Phone",
+    "serial": "03cc1b7b-1458-4d92-ad34-aca8b6ad38cc",
+    "estado": "archivado",
+    "ultimaAsignacion": "05/02/2024",
+    "ultimaDesasignacion": "29/05/2024",
+    "fechaCompra": "09/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1607,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e10537504e013d61" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5376" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef973f3c37" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664291e1053751a598d11a" },
+    "etiqueta": "42-155-8079",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/lpq8wfdkgsesqiqoohmf.jpg",
+    "nombre": "SoundStation 2",
+    "serial": "2c338977-15f1-4b10-bc0e-7a9135e1cbe6",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "19/08/2023",
+    "ultimaDesasignacion": "21/05/2024",
+    "fechaCompra": "23/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1598,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053751f89bbca6" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5375" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef19a633a3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664291e1053751f89bbcd4" },
+    "etiqueta": "33-050-0635",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/lpq8wfdkgsesqiqoohmf.jpg",
+    "nombre": "SoundStation 2",
+    "serial": "b9b41547-0b31-40ca-ba24-875afd0df4b3",
+    "estado": "no asignable",
+    "ultimaAsignacion": "08/07/2023",
+    "ultimaDesasignacion": "16/05/2024",
+    "fechaCompra": "08/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1900,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe10537517c6b60cc" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5375" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef973f3c37" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664291e1053750b441ecbb" },
+    "etiqueta": "43-957-5567",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/lpq8wfdkgsesqiqoohmf.jpg",
+    "nombre": "SoundStation 2",
+    "serial": "d6cc4728-3bb9-4b01-982b-3c4af5f2ab11",
+    "estado": "asignable",
+    "ultimaAsignacion": "26/10/2023",
+    "ultimaDesasignacion": "16/05/2024",
+    "fechaCompra": "05/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1627,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053750e747c23d" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5375" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f04ade83d8" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664291e1053751e5d9f04f" },
+    "etiqueta": "26-060-5076",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/lpq8wfdkgsesqiqoohmf.jpg",
+    "nombre": "SoundStation 2",
+    "serial": "d9e5110f-ad7c-4cd2-b6e1-06e5d410e623",
+    "estado": "archivado",
+    "ultimaAsignacion": "02/01/2024",
+    "ultimaDesasignacion": "02/06/2024",
+    "fechaCompra": "16/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1717,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053751fd1cdd32" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5375" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537efdc6fa41f" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664291e10537502bc84356" },
+    "etiqueta": "44-324-8345",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/lpq8wfdkgsesqiqoohmf.jpg",
+    "nombre": "SoundStation 2",
+    "serial": "680ea2bd-14f8-40b8-962b-42fd73b465e2",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "16/03/2024",
+    "ultimaDesasignacion": "15/05/2024",
+    "fechaCompra": "18/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1701,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae105375205368cb1" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5375" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efde48d4ef" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664291e10537511d0bce12" },
+    "etiqueta": "11-604-7139",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/lpq8wfdkgsesqiqoohmf.jpg",
+    "nombre": "SoundStation 2",
+    "serial": "6d1cc2e3-800c-4390-959d-a9c6fde145cc",
+    "estado": "no asignable",
+    "ultimaAsignacion": "18/02/2024",
+    "ultimaDesasignacion": "08/05/2024",
+    "fechaCompra": "09/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1521,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750ee33e0d0" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5375" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efa9458383" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664291e1053751c0b7b8e8" },
+    "etiqueta": "85-679-4203",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/lpq8wfdkgsesqiqoohmf.jpg",
+    "nombre": "SoundStation 2",
+    "serial": "1dddc51a-6f2a-43a9-8a2f-9213e1241c1c",
+    "estado": "asignable",
+    "ultimaAsignacion": "03/10/2023",
+    "ultimaDesasignacion": "22/05/2024",
+    "fechaCompra": "02/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1748,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae105375205368ca7" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5375" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef973f3c37" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664291e1053751ae22ef52" },
+    "etiqueta": "05-042-8644",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/lpq8wfdkgsesqiqoohmf.jpg",
+    "nombre": "SoundStation 2",
+    "serial": "2f11e878-cb09-4de7-bd92-75be3ce981f2",
+    "estado": "asignable",
+    "ultimaAsignacion": "12/01/2024",
+    "ultimaDesasignacion": "07/06/2024",
+    "fechaCompra": "12/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1513,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe10537511d0bcde8" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5375" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f0a3679fe3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664291e1053750927e0c30" },
+    "etiqueta": "69-387-3549",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/lpq8wfdkgsesqiqoohmf.jpg",
+    "nombre": "SoundStation 2",
+    "serial": "0b7a97c2-b465-404e-ab1a-bb628bb9b6c9",
+    "estado": "archivado",
+    "ultimaAsignacion": "06/03/2024",
+    "ultimaDesasignacion": "06/05/2024",
+    "fechaCompra": "21/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1879,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053750e747c242" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5375" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0d8bed995" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664291e1053751a8f19ef6" },
+    "etiqueta": "36-116-5570",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/lpq8wfdkgsesqiqoohmf.jpg",
+    "nombre": "SoundStation 2",
+    "serial": "775e4918-0a32-41e9-922e-587aa6c169d9",
+    "estado": "asignable",
+    "ultimaAsignacion": "26/09/2023",
+    "ultimaDesasignacion": "08/06/2024",
+    "fechaCompra": "24/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1613,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053750707c12b5" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5375" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f0a3679fe3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642aee1053751a598d11b" },
+    "etiqueta": "65-645-8194",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/p7bxhs8wb2mxq193obxp.jpg",
+    "nombre": "Spectre",
+    "serial": "e5c4533a-74ec-4e24-b1ca-2d25609262e1",
+    "estado": "archivado",
+    "ultimaAsignacion": "24/12/2023",
+    "ultimaDesasignacion": "26/05/2024",
+    "fechaCompra": "01/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1651,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750ee33e0d7" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536f" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef973f3c37" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642aee1053751f89bbcd5" },
+    "etiqueta": "59-906-9921",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/p7bxhs8wb2mxq193obxp.jpg",
+    "nombre": "Spectre",
+    "serial": "c43e8311-40e4-4f89-8509-e52d093e1144",
+    "estado": "asignable",
+    "ultimaAsignacion": "23/09/2023",
+    "ultimaDesasignacion": "14/05/2024",
+    "fechaCompra": "22/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1648,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053750b441ec89" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536f" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f04ade83d8" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642aee1053750b441ecbc" },
+    "etiqueta": "47-259-5799",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/p7bxhs8wb2mxq193obxp.jpg",
+    "nombre": "Spectre",
+    "serial": "2760b6d6-c219-4f39-8d75-a71729e5309b",
+    "estado": "archivado",
+    "ultimaAsignacion": "29/10/2023",
+    "ultimaDesasignacion": "17/05/2024",
+    "fechaCompra": "01/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1951,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750a3841705" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536f" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef19a633a3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642aee1053751e5d9f050" },
+    "etiqueta": "27-381-7842",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/p7bxhs8wb2mxq193obxp.jpg",
+    "nombre": "Spectre",
+    "serial": "67708ec8-5df3-46c2-bb3c-56ff81beae7f",
+    "estado": "archivado",
+    "ultimaAsignacion": "09/08/2023",
+    "ultimaDesasignacion": "30/05/2024",
+    "fechaCompra": "19/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1644,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe1053751a598d0e7" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536f" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537efdc6fa41f" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642aee10537502bc84357" },
+    "etiqueta": "88-435-5042",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/p7bxhs8wb2mxq193obxp.jpg",
+    "nombre": "Spectre",
+    "serial": "184fa0e1-8e53-4d97-9c5a-c1078fe1bdb4",
+    "estado": "no asignable",
+    "ultimaAsignacion": "28/06/2023",
+    "ultimaDesasignacion": "31/05/2024",
+    "fechaCompra": "05/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1917,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae10537503d3fecaa" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536f" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537efdc6fa41f" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642aee10537511d0bce13" },
+    "etiqueta": "94-017-4142",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635924/activos/p7bxhs8wb2mxq193obxp.jpg",
+    "nombre": "Spectre",
+    "serial": "f60db4f7-6d0e-49f9-8379-836d66715347",
+    "estado": "no asignable",
+    "ultimaAsignacion": "16/12/2023",
+    "ultimaDesasignacion": "21/05/2024",
+    "fechaCompra": "08/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1969,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751a598d0e2" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536f" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f052f61526" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642c8e1053751a598d11c" },
+    "etiqueta": "17-918-8969",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/muwae4cwilvqgrdt3pbk.jpg",
+    "nombre": "Surface",
+    "serial": "aae9e1bf-b69f-4604-92e1-f44ecdedabcb",
+    "estado": "no asignable",
+    "ultimaAsignacion": "17/09/2023",
+    "ultimaDesasignacion": "27/05/2024",
+    "fechaCompra": "02/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1637,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe10537517c6b60ca" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536d" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f002cf96e0" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642c8e1053751f89bbcd6" },
+    "etiqueta": "06-214-2902",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/muwae4cwilvqgrdt3pbk.jpg",
+    "nombre": "Surface",
+    "serial": "99ec5064-c2da-4c05-b0c4-9f4b9ea111f4",
+    "estado": "asignable",
+    "ultimaAsignacion": "17/03/2024",
+    "ultimaDesasignacion": "31/05/2024",
+    "fechaCompra": "23/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1698,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae105375229c2a067" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536d" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537efdc6fa41f" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642c8e1053750b441ecbd" },
+    "etiqueta": "49-431-5004",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/muwae4cwilvqgrdt3pbk.jpg",
+    "nombre": "Surface",
+    "serial": "b74692fb-c25f-47d3-8cbe-784b113c4847",
+    "estado": "archivado",
+    "ultimaAsignacion": "14/03/2024",
+    "ultimaDesasignacion": "16/05/2024",
+    "fechaCompra": "16/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1664,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750eae3d02e" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536d" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef973f3c37" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642c8e1053751e5d9f051" },
+    "etiqueta": "11-425-8645",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/muwae4cwilvqgrdt3pbk.jpg",
+    "nombre": "Surface",
+    "serial": "f55240ee-69a2-4edf-8858-92b15836ad2a",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "23/03/2024",
+    "ultimaDesasignacion": "23/05/2024",
+    "fechaCompra": "16/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1902,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae105375229c2a05c" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536d" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efa9458383" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642c8e10537502bc84358" },
+    "etiqueta": "12-436-8779",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/muwae4cwilvqgrdt3pbk.jpg",
+    "nombre": "Surface",
+    "serial": "c5d161c1-be6b-422f-a715-56fbce43e68f",
+    "estado": "no asignable",
+    "ultimaAsignacion": "25/03/2024",
+    "ultimaDesasignacion": "27/05/2024",
+    "fechaCompra": "21/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1572,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750ee33e0e8" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536d" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537efdc6fa41f" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642c8e10537511d0bce14" },
+    "etiqueta": "05-076-3084",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635922/activos/muwae4cwilvqgrdt3pbk.jpg",
+    "nombre": "Surface",
+    "serial": "2f343a46-2e6c-4cfc-b51f-e475ea527ef4",
+    "estado": "asignable",
+    "ultimaAsignacion": "27/03/2024",
+    "ultimaDesasignacion": "05/06/2024",
+    "fechaCompra": "21/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1850,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e10537520ea60600" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536d" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0d8bed995" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642e4e1053751a598d11d" },
+    "etiqueta": "58-130-7829",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/dkocaoeowebv7onerev0.png",
+    "nombre": "Tab3",
+    "serial": "c1ab1b1a-8524-4dca-8d09-bd8fb6c749b7",
+    "estado": "archivado",
+    "ultimaAsignacion": "04/08/2023",
+    "ultimaDesasignacion": "26/05/2024",
+    "fechaCompra": "22/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1540,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750c44714fb" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5378" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f05510cb41" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642e4e1053751f89bbcd7" },
+    "etiqueta": "80-989-7111",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/dkocaoeowebv7onerev0.png",
+    "nombre": "Tab3",
+    "serial": "71b5b82f-9e54-4a94-9a58-efc11484ad62",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "16/07/2023",
+    "ultimaDesasignacion": "14/05/2024",
+    "fechaCompra": "07/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1633,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e10537514f7dc96b" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5378" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f04ade83d8" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642e4e1053750b441ecbe" },
+    "etiqueta": "94-270-8368",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/dkocaoeowebv7onerev0.png",
+    "nombre": "Tab3",
+    "serial": "d7a75e15-a2c9-488f-9b72-d9745198bc1e",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "05/11/2023",
+    "ultimaDesasignacion": "26/05/2024",
+    "fechaCompra": "23/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1699,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750eae3d045" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5378" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537efdc6fa41f" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642e4e1053751e5d9f052" },
+    "etiqueta": "36-615-1524",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/dkocaoeowebv7onerev0.png",
+    "nombre": "Tab3",
+    "serial": "116b1305-0a12-483a-a4ec-42dfd0bf2133",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "17/09/2023",
+    "ultimaDesasignacion": "16/05/2024",
+    "fechaCompra": "13/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1983,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e105375184ce293f" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5378" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efa9458383" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642e4e10537502bc84359" },
+    "etiqueta": "31-143-4932",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/dkocaoeowebv7onerev0.png",
+    "nombre": "Tab3",
+    "serial": "15f3c2a3-e3e8-40da-a74e-761b2280033d",
+    "estado": "archivado",
+    "ultimaAsignacion": "14/06/2023",
+    "ultimaDesasignacion": "19/05/2024",
+    "fechaCompra": "25/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1671,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e10537520ea605f8" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5378" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f052f61526" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "666642e4e10537511d0bce15" },
+    "etiqueta": "03-266-4691",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/dkocaoeowebv7onerev0.png",
+    "nombre": "Tab3",
+    "serial": "0087cc56-201c-4701-ac24-f4ac5fbb11d1",
+    "estado": "asignable",
+    "ultimaAsignacion": "18/03/2024",
+    "ultimaDesasignacion": "28/05/2024",
+    "fechaCompra": "08/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1946,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750c44714fa" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5378" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef19a633a3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664301e1053751a598d11e" },
+    "etiqueta": "09-523-5942",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/a77jkhgbwsk8mtamusqv.jpg",
+    "nombre": "Ultrafine 4k",
+    "serial": "093bc9b3-0876-4566-8a53-5fae4882cb62",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "11/10/2023",
+    "ultimaDesasignacion": "06/09/2023",
+    "fechaCompra": "04/08/2023",
+    "valorCompra": 3500,
+    "valorActual": 1794,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053750e747c22f" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537b" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f0a3679fe3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664301e1053751f89bbcd8" },
+    "etiqueta": "01-178-6930",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/a77jkhgbwsk8mtamusqv.jpg",
+    "nombre": "Ultrafine 4k",
+    "serial": "4a6e79f1-a41c-4acf-8512-3bfd1d9f01be",
+    "estado": "no asignable",
+    "ultimaAsignacion": "05/10/2023",
+    "ultimaDesasignacion": "29/12/2023",
+    "fechaCompra": "21/07/2023",
+    "valorCompra": 3500,
+    "valorActual": 1688,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe10537502bc84322" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537b" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef973f3c37" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664301e1053750b441ecbf" },
+    "etiqueta": "24-871-1372",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/a77jkhgbwsk8mtamusqv.jpg",
+    "nombre": "Ultrafine 4k",
+    "serial": "4fc06853-db0f-4c7f-8dbd-c71728b6da3c",
+    "estado": "no asignable",
+    "ultimaAsignacion": "15/02/2024",
+    "ultimaDesasignacion": "13/10/2023",
+    "fechaCompra": "22/12/2023",
+    "valorCompra": 3500,
+    "valorActual": 1791,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750a38416fe" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537b" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f0a3679fe3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664301e1053751e5d9f053" },
+    "etiqueta": "88-168-4310",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/a77jkhgbwsk8mtamusqv.jpg",
+    "nombre": "Ultrafine 4k",
+    "serial": "5a620967-96e5-4874-ac09-2c9f3f5ea738",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "14/07/2023",
+    "ultimaDesasignacion": "05/01/2024",
+    "fechaCompra": "24/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1645,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae10537503d3feca6" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537b" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef19a633a3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664301e10537502bc8435a" },
+    "etiqueta": "01-420-8636",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/a77jkhgbwsk8mtamusqv.jpg",
+    "nombre": "Ultrafine 4k",
+    "serial": "0c95d760-f5cf-4b4a-8b08-fa473d83ddd4",
+    "estado": "no asignable",
+    "ultimaAsignacion": "03/11/2023",
+    "ultimaDesasignacion": "10/11/2023",
+    "fechaCompra": "07/11/2023",
+    "valorCompra": 3500,
+    "valorActual": 1630,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750a384170e" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537b" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efde48d4ef" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664301e10537511d0bce16" },
+    "etiqueta": "41-593-8890",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/a77jkhgbwsk8mtamusqv.jpg",
+    "nombre": "Ultrafine 4k",
+    "serial": "173c326f-40a0-4e5a-9cbd-eabc3ee9ffaa",
+    "estado": "archivado",
+    "ultimaAsignacion": "19/12/2023",
+    "ultimaDesasignacion": "29/12/2023",
+    "fechaCompra": "01/04/2024",
+    "valorCompra": 3500,
+    "valorActual": 1623,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e10537520ea60603" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537b" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f002cf96e0" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666431be1053751a598d11f" },
+    "etiqueta": "75-015-9796",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/jz8c1hhchkir0zh4epoc.jpg",
+    "nombre": "Ultrasharp U2415",
+    "serial": "0f10b2e1-f3c3-4e12-9d3a-c8ca25c5dbe4",
+    "estado": "archivado",
+    "ultimaAsignacion": "05/03/2024",
+    "ultimaDesasignacion": "02/06/2024",
+    "fechaCompra": "11/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1530,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751a8f19ebd" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537c" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef973f3c37" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666431be1053751f89bbcd9" },
+    "etiqueta": "57-449-1456",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/jz8c1hhchkir0zh4epoc.jpg",
+    "nombre": "Ultrasharp U2415",
+    "serial": "a356a5dd-96bf-4ae7-82a0-a4707e0cfbeb",
+    "estado": "asignable",
+    "ultimaAsignacion": "16/12/2023",
+    "ultimaDesasignacion": "27/05/2024",
+    "fechaCompra": "05/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1923,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e10537504e013d4b" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537c" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0428d4b70" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666431be1053750b441ecc0" },
+    "etiqueta": "62-184-0629",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/jz8c1hhchkir0zh4epoc.jpg",
+    "nombre": "Ultrasharp U2415",
+    "serial": "af6710f9-4fe5-412e-8111-725d3fb64e11",
+    "estado": "archivado",
+    "ultimaAsignacion": "25/08/2023",
+    "ultimaDesasignacion": "23/05/2024",
+    "fechaCompra": "17/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1794,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053751626e7185" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537c" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537efdc6fa41f" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666431be1053751e5d9f054" },
+    "etiqueta": "60-852-0774",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/jz8c1hhchkir0zh4epoc.jpg",
+    "nombre": "Ultrasharp U2415",
+    "serial": "0c81801a-6139-4e38-807e-e9df6534db8b",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "31/01/2024",
+    "ultimaDesasignacion": "06/06/2024",
+    "fechaCompra": "13/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1876,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053750927e0bfc" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537c" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efa9458383" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666431be10537502bc8435b" },
+    "etiqueta": "29-262-6423",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/jz8c1hhchkir0zh4epoc.jpg",
+    "nombre": "Ultrasharp U2415",
+    "serial": "dd6a72b6-8a40-4bb2-9237-5b130d219c9b",
+    "estado": "archivado",
+    "ultimaAsignacion": "14/09/2023",
+    "ultimaDesasignacion": "12/05/2024",
+    "fechaCompra": "14/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1869,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae105375205368caa" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537c" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f0a3679fe3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666431be10537511d0bce17" },
+    "etiqueta": "57-986-1137",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/jz8c1hhchkir0zh4epoc.jpg",
+    "nombre": "Ultrasharp U2415",
+    "serial": "1a1ac2d2-0d61-4655-a241-ed43cdf9b5fb",
+    "estado": "archivado",
+    "ultimaAsignacion": "14/11/2023",
+    "ultimaDesasignacion": "26/05/2024",
+    "fechaCompra": "08/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1800,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750eae3d037" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e537c" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0428d4b70" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664334e1053751a598d120" },
+    "etiqueta": "78-049-7314",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/rikqxa4thiyul432tqzt.jpg",
+    "nombre": "XPS 13",
+    "serial": "fcb35736-01b0-46d2-8fa0-e9cac5a4e8b6",
+    "estado": "asignable",
+    "ultimaAsignacion": "23/06/2023",
+    "ultimaDesasignacion": "11/05/2024",
+    "fechaCompra": "08/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1743,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053751626e717d" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536e" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f002cf96e0" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664334e1053751f89bbcda" },
+    "etiqueta": "38-297-0587",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/rikqxa4thiyul432tqzt.jpg",
+    "nombre": "XPS 13",
+    "serial": "5654ec52-a97e-4a4f-853d-c0faae577d83",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "30/09/2023",
+    "ultimaDesasignacion": "26/05/2024",
+    "fechaCompra": "01/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1778,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750c7b78a08" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536e" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f052f61526" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664334e1053750b441ecc1" },
+    "etiqueta": "08-822-9975",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/rikqxa4thiyul432tqzt.jpg",
+    "nombre": "XPS 13",
+    "serial": "6e27c19a-4eab-4c9e-aa69-028d28343164",
+    "estado": "archivado",
+    "ultimaAsignacion": "04/01/2024",
+    "ultimaDesasignacion": "05/06/2024",
+    "fechaCompra": "18/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1965,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae10537508022fb96" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536e" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef19a633a3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664334e1053751e5d9f055" },
+    "etiqueta": "28-630-9294",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/rikqxa4thiyul432tqzt.jpg",
+    "nombre": "XPS 13",
+    "serial": "c9ef2cb4-63a2-4145-83ca-97d8a2a641b5",
+    "estado": "archivado",
+    "ultimaAsignacion": "15/07/2023",
+    "ultimaDesasignacion": "16/05/2024",
+    "fechaCompra": "02/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1553,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053750707c12a7" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536e" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efa9458383" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664334e10537502bc8435c" },
+    "etiqueta": "84-201-4409",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/rikqxa4thiyul432tqzt.jpg",
+    "nombre": "XPS 13",
+    "serial": "63051a57-8c31-4104-b084-ec5771e872e4",
+    "estado": "no asignable",
+    "ultimaAsignacion": "22/01/2024",
+    "ultimaDesasignacion": "14/05/2024",
+    "fechaCompra": "13/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1558,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe10537501b829439" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536e" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f04ade83d8" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "66664334e10537511d0bce18" },
+    "etiqueta": "31-789-1536",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/rikqxa4thiyul432tqzt.jpg",
+    "nombre": "XPS 13",
+    "serial": "eaa6428a-581b-4dc5-9762-eedd6da5bf31",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "29/12/2023",
+    "ultimaDesasignacion": "17/05/2024",
+    "fechaCompra": "26/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1970,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751177bcb14" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e536e" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f002cf96e0" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666434ee1053751a598d121" },
+    "etiqueta": "01-597-5388",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635810/activos/jafv84ptd1cf5dipb5xi.png",
+    "nombre": "Yoga 910",
+    "serial": "5c424db3-cad2-49eb-8f21-b9fe27e2ebb2",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "25/03/2024",
+    "ultimaDesasignacion": "09/05/2024",
+    "fechaCompra": "02/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1846,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750a38416ff" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5371" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0428d4b70" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666434ee1053751f89bbcdb" },
+    "etiqueta": "31-369-6068",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635810/activos/jafv84ptd1cf5dipb5xi.png",
+    "nombre": "Yoga 910",
+    "serial": "af48ece6-1dd4-4f18-abe3-9ba9d03fec34",
+    "estado": "asignable",
+    "ultimaAsignacion": "04/11/2023",
+    "ultimaDesasignacion": "30/05/2024",
+    "fechaCompra": "02/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1606,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751fd1cdd1e" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5371" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0d8bed995" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666434ee1053750b441ecc2" },
+    "etiqueta": "65-717-9029",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635810/activos/jafv84ptd1cf5dipb5xi.png",
+    "nombre": "Yoga 910",
+    "serial": "67612adf-30d1-4bbd-b869-7c0af8a0fb4c",
+    "estado": "no asignable",
+    "ultimaAsignacion": "21/02/2024",
+    "ultimaDesasignacion": "08/06/2024",
+    "fechaCompra": "23/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1853,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e10537504e013d57" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5371" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0d8bed995" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666434ee1053751e5d9f056" },
+    "etiqueta": "04-710-2696",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635810/activos/jafv84ptd1cf5dipb5xi.png",
+    "nombre": "Yoga 910",
+    "serial": "c4e61253-1160-4f61-9f9f-528e714abaa0",
+    "estado": "asignable",
+    "ultimaAsignacion": "12/10/2023",
+    "ultimaDesasignacion": "21/05/2024",
+    "fechaCompra": "08/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1778,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e10537504e013d60" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5371" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef2d0d21cd" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666434ee10537502bc8435d" },
+    "etiqueta": "00-548-6338",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635810/activos/jafv84ptd1cf5dipb5xi.png",
+    "nombre": "Yoga 910",
+    "serial": "618b4774-f3fb-4a38-8efa-ff69a681a5ff",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "27/08/2023",
+    "ultimaDesasignacion": "27/05/2024",
+    "fechaCompra": "02/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1953,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053750b441ec86" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5371" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537ef19a633a3" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666434ee10537511d0bce19" },
+    "etiqueta": "88-942-4724",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635810/activos/jafv84ptd1cf5dipb5xi.png",
+    "nombre": "Yoga 910",
+    "serial": "7f2a7e2c-9615-4ed3-bb0a-da8f3f0ca22b",
+    "estado": "archivado",
+    "ultimaAsignacion": "16/12/2023",
+    "ultimaDesasignacion": "06/05/2024",
+    "fechaCompra": "23/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1576,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e1053750c7b78a0a" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5371" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efa9458383" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666436be1053751a598d122" },
+    "etiqueta": "95-972-8012",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/dw3zg2cwmdy9lvzppbrk.jpg",
+    "nombre": "ZenBook UX310",
+    "serial": "7ab6ab73-2292-4921-93c6-c509f99401ff",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "12/08/2023",
+    "ultimaDesasignacion": "17/05/2024",
+    "fechaCompra": "02/06/2023",
+    "valorCompra": 3500,
+    "valorActual": 1940,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe10537508022fbab" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5370" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f04ade83d8" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666436be1053751f89bbcdc" },
+    "etiqueta": "45-174-6017",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/dw3zg2cwmdy9lvzppbrk.jpg",
+    "nombre": "ZenBook UX310",
+    "serial": "b616ecee-6cab-4822-9a0f-16b4864f5d2e",
+    "estado": "no asignable",
+    "ultimaAsignacion": "04/02/2024",
+    "ultimaDesasignacion": "01/06/2024",
+    "fechaCompra": "30/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1510,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcbe10537517c6b60c6" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5370" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efde48d4ef" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666436be1053750b441ecc3" },
+    "etiqueta": "96-631-4053",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/dw3zg2cwmdy9lvzppbrk.jpg",
+    "nombre": "ZenBook UX310",
+    "serial": "9a32cc83-ba73-43b5-be0e-cb6d3be19012",
+    "estado": "asignable",
+    "ultimaAsignacion": "07/09/2023",
+    "ultimaDesasignacion": "04/06/2024",
+    "fechaCompra": "17/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1559,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751c0b7b8b1" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5370" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537efa9458383" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666436be1053751e5d9f057" },
+    "etiqueta": "68-851-5048",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/dw3zg2cwmdy9lvzppbrk.jpg",
+    "nombre": "ZenBook UX310",
+    "serial": "a28be618-815c-4834-b7fb-f6bccd7573c7",
+    "estado": "da\u00c3\u00b1ado",
+    "ultimaAsignacion": "03/07/2023",
+    "ultimaDesasignacion": "20/05/2024",
+    "fechaCompra": "24/04/2023",
+    "valorCompra": 3500,
+    "valorActual": 1783,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae1053751177bcb1c" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5370" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f002cf96e0" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666436be10537502bc8435e" },
+    "etiqueta": "71-458-3095",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/dw3zg2cwmdy9lvzppbrk.jpg",
+    "nombre": "ZenBook UX310",
+    "serial": "df058395-7603-4274-a468-2a057911c65a",
+    "estado": "asignable",
+    "ultimaAsignacion": "31/01/2024",
+    "ultimaDesasignacion": "03/06/2024",
+    "fechaCompra": "22/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1595,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fcae10537508022fba7" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5370" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05f1e10537f0d8bed995" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  },
+  {
+    "_id": { "$oid": "6666436be10537511d0bce1a" },
+    "etiqueta": "69-287-4035",
+    "image": "https://res.cloudinary.com/dgyxjfzlw/image/upload/v1717635923/activos/dw3zg2cwmdy9lvzppbrk.jpg",
+    "nombre": "ZenBook UX310",
+    "serial": "85632d0e-83c8-4aec-b611-3616667b73de",
+    "estado": "asignable",
+    "ultimaAsignacion": "09/01/2024",
+    "ultimaDesasignacion": "06/06/2024",
+    "fechaCompra": "24/05/2023",
+    "valorCompra": 3500,
+    "valorActual": 1593,
+    "asignadoA": {
+      "$ref": "personas",
+      "$id": { "$oid": "66659fd0e105375184ce292c" }
+    },
+    "modelo": {
+      "$ref": "modelos",
+      "$id": { "$oid": "665d2b3cbc8fc9ed670e5370" }
+    },
+    "depreciacion": {
+      "$ref": "depreciaciones",
+      "$id": { "$oid": "665d07000a2fc07829c9903a" }
+    },
+    "ubicacion": {
+      "$ref": "ubicaciones",
+      "$id": { "$oid": "665d05ece10537f052f61526" }
+    },
+    "_class": "com.example.demo.models.activo.Activo"
+  }
+]

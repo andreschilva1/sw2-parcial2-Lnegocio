@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "665d07000a2fc07829c9903a"
+  },
+  "nombre": "Computer Depreciation",
+  "meses": "36",
+  "valorMinimo": "1500",
+  "_class": "com.example.demo.models.depreciacion.Depreciacion"
+},
+{
+  "_id": {
+    "$oid": "665d07190a2fc07829c9903b"
+  },
+  "nombre": "Display Depreciation",
+  "meses": "12",
+  "valorMinimo": "800",
+  "_class": "com.example.demo.models.depreciacion.Depreciacion"
+},
+{
+  "_id": {
+    "$oid": "665d07310a2fc07829c9903c"
+  },
+  "nombre": "Mobile Phone Depreciation",
+  "meses": "24",
+  "valorMinimo": "600",
+  "_class": "com.example.demo.models.depreciacion.Depreciacion"
+}]

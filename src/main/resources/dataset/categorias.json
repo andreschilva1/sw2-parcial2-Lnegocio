@@ -1,0 +1,7 @@
+[{"_id":{"$oid":"665d04ede10537f0a3679fe2"},"nombre":"Displays","descripcion":null,"_class":"com.example.demo.models.categoria.Categoria"},
+{"_id":{"$oid":"665d04ede10537f052f61525"},"nombre":"Tablets","descripcion":null,"_class":"com.example.demo.models.categoria.Categoria"},
+{"_id":{"$oid":"665d04ede10537f002cf96df"},"nombre":"Mobile Phones","descripcion":null,"_class":"com.example.demo.models.categoria.Categoria"},
+{"_id":{"$oid":"665d04ede10537f05510cb40"},"nombre":"Voip Phones","descripcion":null,"_class":"com.example.demo.models.categoria.Categoria"},
+{"_id":{"$oid":"665d04ede10537efdc6fa41e"},"nombre":"Desktops","descripcion":null,"_class":"com.example.demo.models.categoria.Categoria"},
+{"_id":{"$oid":"665d04ede10537f04ade83d7"},"nombre":"Laptops","descripcion":null,"_class":"com.example.demo.models.categoria.Categoria"},
+{"_id":{"$oid":"665d04ede10537f04c3c65a1"},"nombre":"Displays","descripcion":null,"_class":"com.example.demo.models.categoria.Categoria"}]
