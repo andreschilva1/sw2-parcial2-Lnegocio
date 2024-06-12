@@ -113,7 +113,7 @@ Types
 """
 
 type Activo {
-  id: ID!
+  id: ID
   etiqueta: String
   image: String
   nombre: String
@@ -131,39 +131,39 @@ type Activo {
 }
 
 type Categoria {
-  id: ID!
+  id: ID
   nombre: String
   descripcion: String
 }
 
 type Fabricante {
-  id: ID!
+  id: ID
   nombre: String
   descripcion: String
 }
 
 type Ubicacion {
-  id: ID!
+  id: ID
   nombre: String
   direccion: String
 }
 
 type Depreciacion {
-  id: ID!
+  id: ID
   nombre: String
   meses: String
   valorMinimo: String
 }
 
 type Modelo {
-  id: ID!
+  id: ID
   nombre: String
   fabricante: Fabricante
   categoria: Categoria
 }
 
 type Persona {
-  id: ID!
+  id: ID
   nombre: String
   email: String
   telefono: String
@@ -172,7 +172,7 @@ type Persona {
 }
 
 type Departamento {
-  id: ID!
+  id: ID
   nombre: String
   descripcion: String
   
@@ -204,10 +204,11 @@ input ActivoInput {
 input CategoriaInput {
   id: ID
   nombre: String
+  descripcion: String
 }
 
 input FabricanteInput {
-  id: ID!
+  id: ID
   nombre: String
   descripcion: String
 }
