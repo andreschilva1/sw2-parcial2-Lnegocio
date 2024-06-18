@@ -26,7 +26,7 @@ public class PersonasController {
     }
 
     @QueryMapping
-    public Persona personasById(@Argument String id) {
+    public Persona personaById(@Argument String id) {
         return this.personasServiceIMPL.findById(id);
     }
 
