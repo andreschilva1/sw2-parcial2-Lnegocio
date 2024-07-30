@@ -55,6 +55,13 @@ type Query {
   departamentoById(id: ID!): Departamento
   deleteDepartamento(id: ID!): String
 
+  """
+  Usuarios
+  """
+
+   #requiere token
+  listarUsuario: [User]
+  findUser(username: String): User
 }
 
 
@@ -106,144 +113,13 @@ type Mutation {
   """ 
   addDepartamento(departamento: DepartamentoInput): Departamento
   updateDepartamento(departamento: DepartamentoInput): Departamento
+
+  """
+  autenticacion
+  """
+
+   #publico
+  login(request: LoginRequest): AuthResponse
+  register(request: RegisterRequest): AuthResponse
 }
 
-"""
-Types
-"""
-
-type Activo {
-  id: ID
-  etiqueta: String
-  image: String
-  nombre: String
-  serial: String
-  estado: String
-  ultimaAsignacion: String
-  ultimaDesasignacion: String
-  fechaCompra: String
-  valorCompra: String
-  valorActual: String
-  asignadoA: Persona
-  modelo: Modelo
-  depreciacion: Depreciacion
-  ubicacion: Ubicacion
-}
-
-type Categoria {
-  id: ID
-  nombre: String
-  descripcion: String
-}
-
-type Fabricante {
-  id: ID
-  nombre: String
-  descripcion: String
-}
-
-type Ubicacion {
-  id: ID
-  nombre: String
-  direccion: String
-}
-
-type Depreciacion {
-  id: ID
-  nombre: String
-  meses: String
-  valorMinimo: String
-}
-
-type Modelo {
-  id: ID
-  nombre: String
-  fabricante: Fabricante
-  categoria: Categoria
-}
-
-type Persona {
-  id: ID
-  nombre: String
-  email: String
-  telefono: String
-  ci: String
-  departamento: Departamento
-}
-
-type Departamento {
-  id: ID
-  nombre: String
-  descripcion: String
-  
-}
-
-
-
-"""
-Inputs
-"""
-input ActivoInput {
-  id: ID
-  etiqueta: String
-  image: String
-  nombre: String
-  serial: String
-  estado: String
-  ultimaAsignacion: String
-  ultimaDesasignacion: String
-  fechaCompra: String
-  valorCompra: String
-  valorActual: String
-  asignadoA: PersonaInput
-  modelo: ModeloInput
-  depreciacion: DepreciacionInput
-  ubicacion: UbicacionInput
-}
-
-input CategoriaInput {
-  id: ID
-  nombre: String
-  descripcion: String
-}
-
-input FabricanteInput {
-  id: ID
-  nombre: String
-  descripcion: String
-}
-
-input UbicacionInput {
-  id: ID
-  nombre: String
-  direccion: String
-}
-
-input DepreciacionInput {
-  id: ID
-  nombre: String
-  meses: String
-  valorMinimo: String
-}
-
-input ModeloInput {
-  id: ID
-  nombre: String
-  fabricante: FabricanteInput
-  categoria: CategoriaInput
-}
-
-input PersonaInput {
-  id: ID
-  nombre: String
-  email: String
-  telefono: String
-  ci: String
-  departamento: DepartamentoInput
-}
-
-input DepartamentoInput {
-  id: ID
-  nombre: String
-  descripcion: String
-}
