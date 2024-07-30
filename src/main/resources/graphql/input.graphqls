@@ -1,0 +1,78 @@
+"""
+Inputs
+"""
+input ActivoInput {
+  id: ID
+  etiqueta: String
+  image: String
+  nombre: String
+  serial: String
+  estado: String
+  ultimaAsignacion: String
+  ultimaDesasignacion: String
+  fechaCompra: String
+  valorCompra: String
+  valorActual: String
+  asignadoA: PersonaInput
+  modelo: ModeloInput
+  depreciacion: DepreciacionInput
+  ubicacion: UbicacionInput
+}
+
+input CategoriaInput {
+  id: ID
+  nombre: String
+  descripcion: String
+}
+
+input FabricanteInput {
+  id: ID
+  nombre: String
+  descripcion: String
+}
+
+input UbicacionInput {
+  id: ID
+  nombre: String
+  direccion: String
+}
+
+input DepreciacionInput {
+  id: ID
+  nombre: String
+  meses: String
+  valorMinimo: String
+}
+
+input ModeloInput {
+  id: ID
+  nombre: String
+  fabricante: FabricanteInput
+  categoria: CategoriaInput
+}
+
+input PersonaInput {
+  id: ID
+  nombre: String
+  email: String
+  telefono: String
+  ci: String
+  departamento: DepartamentoInput
+}
+
+input DepartamentoInput {
+  id: ID
+  nombre: String
+  descripcion: String
+}
+
+
+input RegisterRequest {
+  email: String!
+  password: String!
+}
+
+input LoginRequest {
+  email: String!
+  password: String!
+}

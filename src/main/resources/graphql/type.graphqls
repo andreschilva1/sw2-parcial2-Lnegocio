@@ -1,0 +1,89 @@
+"""
+Types
+"""
+
+type Activo {
+  id: ID
+  etiqueta: String
+  image: String
+  nombre: String
+  serial: String
+  estado: String
+  ultimaAsignacion: String
+  ultimaDesasignacion: String
+  fechaCompra: String
+  valorCompra: String
+  valorActual: String
+  asignadoA: Persona
+  modelo: Modelo
+  depreciacion: Depreciacion
+  ubicacion: Ubicacion
+}
+
+type Categoria {
+  id: ID
+  nombre: String
+  descripcion: String
+}
+
+type Fabricante {
+  id: ID
+  nombre: String
+  descripcion: String
+}
+
+type Ubicacion {
+  id: ID
+  nombre: String
+  direccion: String
+}
+
+type Depreciacion {
+  id: ID
+  nombre: String
+  meses: String
+  valorMinimo: String
+}
+
+type Modelo {
+  id: ID
+  nombre: String
+  fabricante: Fabricante
+  categoria: Categoria
+}
+
+type Persona {
+  id: ID
+  nombre: String
+  email: String
+  telefono: String
+  ci: String
+  departamento: Departamento
+}
+
+type Departamento {
+  id: ID
+  nombre: String
+  descripcion: String
+  
+}
+
+
+
+
+
+"""
+autenticacion
+"""
+
+type User {
+  id: Int
+  username: String
+  email: String
+  role: String
+}
+
+
+type AuthResponse {
+  token: String!
+}
